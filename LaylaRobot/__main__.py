@@ -76,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/9eb09c2ac1ab306a7692c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Supporting him; [Hero](t.me/HEROGAMERS1)"""
@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             url=f"https://t.me/Friends_ForeverVIP"),
                          InlineKeyboardButton(
                              text="📘 Logs",
                              url="https://t.me/LaylaLogs")
@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             url="https://github.com/AayushxKumarz/LaylaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
